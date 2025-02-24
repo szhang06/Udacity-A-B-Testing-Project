@@ -87,7 +87,7 @@ Given a sample size of 5000 cookies visiting the overview pages and the conversi
 
 SD = sqrt(p\*(1-p)/n)
 
-![](data:image/png;base64...)
+![sd](images/standard%20deviation%20of%20evaluation%20metrics.png)
 
 2. **Analytical estimate vs empirical variability**
 
@@ -159,7 +159,7 @@ We first calculate the number of days required for each evaluation metric if we 
 * Retention: 119 days
 * Net Conversion: 18 days
 
-![](data:image/png;base64...)
+![](images/duration.png)
 
 Since the duration for retention is excessively long (119 days) and impractical, we will exclude this metric from the experiment. This leaves us with gross conversion and net conversion, which would take approximately 18 days to complete if all traffic is diverted.
 
@@ -198,9 +198,9 @@ The observed value 0.5004673474 falls within the confidence interval, so the san
 
 **Click-through-probability on “Start free trial”:**
 
-# of clicks: 28378 for control group, 28325 for experiment group.
+number of clicks: 28378 for control group, 28325 for experiment group.
 
-# of page views: 345543 for control group, 344660 for experiment group.
+number of page views: 345543 for control group, 344660 for experiment group.
 
 P\_pooled = ( 28378 + 28325)/(345543 + 344660) = 0.0821540909
 
@@ -213,8 +213,6 @@ Difference = ctp\_exp - ctp\_ctl = 0.00005662709159
 CI = d -+ moe = [-0.001239052107, 0.00135230629]
 
 The CI includes 0, thus the metric passes the sanity check.
-
-**![](data:image/png;base64...)**
 
 ## Result Analysis
 
@@ -254,7 +252,7 @@ As CI includes 0, it is not statistically significant. So it is also not practic
 
 We use an [online tool](https://www.graphpad.com/quickcalcs/binomial1/) to perform sign tests.
 
-| Evaluation metric | * Sign | * sign | probability | P\_value (two tail) |
+| Evaluation metric | + Sign | - Sign | Probability | P\_value (two-tail) |
 | --- | --- | --- | --- | --- |
 | Gross conversion | 4 | 19 | 0.5 | 0.0026 |
 | Net conversion | 10 | 13 | 0.5 | 0.6776 |
