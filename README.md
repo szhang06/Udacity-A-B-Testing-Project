@@ -1,3 +1,4 @@
+[Final Project Instructions](https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub) 
 # Experiment Overview: Free Trial Screener
 
 Udacity aimed to improve the student experience and optimize coach support by setting clearer expectations for students enrolling in the free trial. The goal was to reduce frustration among students who left the free trial due to insufficient time commitment, without significantly reducing the number of students who continued past the free trial and completed the course.
